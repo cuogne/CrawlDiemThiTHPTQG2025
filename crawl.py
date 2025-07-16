@@ -2,9 +2,9 @@ from bs4 import BeautifulSoup
 import requests
 import json
     
-
 urls = [f'https://diemthi.vnexpress.net/index/detail/sbd/5200307{i}/year/2025' for i in range(10)]
 
+# list to store student records
 list_students = []
 
 for url in urls:
